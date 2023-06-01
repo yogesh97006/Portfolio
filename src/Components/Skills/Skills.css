@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Noto+Sans:wght@100;300&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap');
+
+.card1{
+    width: 150px;
+    height: 150px;
+    background: rgb(251,63,63);
+    background: linear-gradient(90deg, rgba(251,63,63,0.9641106442577031) 0%, rgba(252,164,70,0.9865196078431373) 100%);
+    box-shadow: white;
+    border: 1px solid black;
+    text-shadow: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card2{
+    width: 150px;
+    height: 150px;
+    background: rgb(34,75,195);
+    background: linear-gradient(90deg, rgba(34,75,195,1) 0%, rgba(45,144,253,1) 100%);
+    box-shadow: white;
+    border: 1px solid black;
+    text-shadow: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.card3{
+    width: 150px;
+    height: 150px;
+    background: rgb(34,191,195);
+    background: linear-gradient(90deg, rgba(34,191,195,1) 0%, rgba(45,245,253,1) 100%);
+    box-shadow: white;
+    border: 1px solid black;
+    text-shadow: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.card4{
+    width: 150px;
+    height: 150px;
+    background: rgb(195,190,34);
+    background: linear-gradient(90deg, rgba(195,190,34,1) 0%, rgba(224,253,45,1) 100%);    box-shadow: white;
+    border: 1px solid black;
+    text-shadow: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.card5{
+    width: 150px;
+    height: 150px;
+    background: rgb(77,34,195);
+background: linear-gradient(90deg, rgba(77,34,195,1) 0%, rgba(146,45,253,1) 100%);
+    box-shadow: white;
+    border: 1px solid black;
+    text-shadow: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.card6{
+    width: 150px;
+    height: 150px;
+    background: rgb(128,34,195);
+    background: linear-gradient(90deg, rgba(128,34,195,1) 0%, rgba(191,45,253,1) 100%);
+    box-shadow: white;
+    border: 1px solid black;
+    text-shadow: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.skill{
+    margin: 40px 0;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: none;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: x-large;
+}
+
+.progress{
+    width: 125px !important;
+    margin: -20px 0 0 10px;
+}
+
+.con1{
+    margin: 150px 50px;
+}
+
+.car1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill1{
+    text-align: center;
+    color: white;
+}
+
+.tops{
+    margin-top: 100px;
+}

@@ -1,0 +1,36 @@
+.Project__Cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 40;
+}
+
+.pc{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 100px 25px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.pbs{
+   display: none;
+}
+
+.pc:hover .pbs {
+    margin-top: 278px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    border: 0.1px solid rgb(39, 39, 39);
+    border-radius:  0 0 10px 10px;
+    transition: 2000;
+}
+
+.pbtns{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+

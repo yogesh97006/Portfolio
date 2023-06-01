@@ -1,0 +1,23 @@
+.Heading_About{
+    align-items: center;
+    text-align: center;
+    margin: 50px 300px;
+    
+}
+
+.About_Items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.About_info{
+    margin: 120px 0 0 0;
+    width: 900px;
+    font-size: 20px;
+    border: 2px solid white;
+    height: 160px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 25px;
+}

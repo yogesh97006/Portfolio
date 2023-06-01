@@ -1,0 +1,28 @@
+.cimg{
+    width: 300px;
+    margin: 200px 200px;
+}
+
+.ci{
+    display: flex;
+   
+}
+
+.cii{
+    display: flex;
+    margin: 20px ;
+}
+
+.citems{
+    margin: 150px 0 0 250px;
+    height: 350px;
+    border:2px solid white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cp{
+    color: white;
+    margin:5px 0 0 15px;
+    cursor: pointer;
+}
