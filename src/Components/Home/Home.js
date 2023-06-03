@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import img from "../../Images/Home.webp";
-import { Link } from "react-router-dom";
+import img from "../../Images/Home.webp"
 import { Box, Button ,Modal, Typography,} from "@mui/material";
 
 function Home() {
