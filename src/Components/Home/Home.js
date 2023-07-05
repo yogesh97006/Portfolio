@@ -6,13 +6,13 @@ import { Box, Button ,Modal, Typography,} from "@mui/material";
 function Home() {
   const [OpenModal, setOpenModal] = useState(false);
 
-  const HandleOpenModal = () => {
-    setOpenModal(true);
-  };
+  function HandleOpenModal(){
+    setOpenModal(!OpenModal)
+  }
 
-  const HandleCloseModel = () => {
-    setOpenModal(false);
-  };
+  function HandleCloseModel(){
+    setOpenModal(false)
+  }
 
   const style = {
     position: "absolute",
@@ -33,8 +33,8 @@ function Home() {
         </h3>
         <h1 className="About_Home">
           My Name is <span className="Home_Name">Yogesh Saini</span>
-          <br />& I am a{" "}
-          <span className="Home_Profession">Frontend Developer</span>
+          <br />& I am a 
+          <span className="Home_Profession"> Frontend Developer</span>
         </h1>
         <div className="Home_Buttons">
           <button className="Resume">
@@ -48,10 +48,11 @@ function Home() {
       <div>
         <img className="img1" src={img} alt="img" />
       </div>
-      {OpenModal?
-        <Modal
+      {OpenModal?<Modal
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
+          open={HandleOpenModal}
+          onClose={HandleCloseModel}
         >
           <Box sx={style}>
             <Typography id="modal-modal-title" className="Heading_Modal" variant="h6" component="h2">
@@ -71,12 +72,12 @@ Message            </Typography>
           <Button variant="contained" color="info">
               Submit
               </Button>
-              <Button variant="contained" color="error" onClick={()=>HandleCloseModel}>
+              <Button variant="contained" color="error" onClick={HandleCloseModel}>
               Cancel
               </Button>
           </div>
           </Box>
-        </Modal>:<p />
+        </Modal>:HandleOpenModal
       }
     </div>
   );
