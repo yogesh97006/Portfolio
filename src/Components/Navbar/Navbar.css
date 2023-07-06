@@ -85,31 +85,7 @@ text-decoration: none;
         padding: 15px;
         margin-top: 0px;
     }
-    /* .navbarItems{
-        display: flex;
-        justify-content: space-between;
-        margin: 0px 10px;
-    }
-    .text{
-        font-size:x-large;
-        font-weight: 400;
-        margin: 17px;
-        color: rgb(252, 252, 252);
-    }
-    
-    .navbarLeft{
-         color: white;
-    }
-    
-    .textItem{
-    font-size: medium;
-    margin: 25px 8px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    /* background-color: aliceblue; */
-    
-    /* } */
-    
+ 
     .textItem:hover{
         color: rgb(0, 0, 0);
         background-color: rgb(105, 191, 244);
@@ -131,13 +107,5 @@ text-decoration: none;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
 
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
 
