@@ -27,11 +27,11 @@ function Navbar() {
                <i className='bi bi-list icon' onClick={handleMenu}></i>{
                Menu?
                <ul className='Mobile_Menu'>
-                <li ><Link className='Links' to="/">Home</Link></li>
-                <li ><Link className='Links' to="/About">About</Link></li>
-                <li ><Link className='Links'  to="/Skills">Skills</Link></li>
-                <li ><Link className='Links' to="/Projects">Projects</Link></li>
-                <li ><Link className='Links' to="/Contact">Contact</Link></li>
+                <li ><Link className='Links' onClick={handleMenu} to="/">Home</Link></li>
+                <li ><Link className='Links' onClick={handleMenu} to="/About">About</Link></li>
+                <li ><Link className='Links' onClick={handleMenu}  to="/Skills">Skills</Link></li>
+                <li ><Link className='Links' onClick={handleMenu} to="/Projects">Projects</Link></li>
+                <li ><Link className='Links' onClick={handleMenu} to="/Contact">Contact</Link></li>
               </ul>:handleMenu}
             </div>
          </div>
