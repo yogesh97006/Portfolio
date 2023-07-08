@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
 import img from "../../Images/Home.webp"
+import Dev from '../../Images/Dev.gif'
 import { Box, Button ,Modal, Typography,} from "@mui/material";
 
 function Home() {
@@ -45,7 +46,8 @@ function Home() {
           </button>
         </div>
       </div>
-      <div>
+      <div className="Images">
+        <img className="img2" src={Dev} alt="img" />
         <img className="img1" src={img} alt="img" />
       </div>
       {OpenModal?<Modal

@@ -36,6 +36,9 @@ h3{
     border-radius: 50%;      /* to remove */ 
 }
 
+.img2{
+    display: none;
+}
 span{
     color: rgb(27, 128, 230);
 text-shadow: none;
@@ -74,9 +77,6 @@ text-shadow: none;
   animation-iteration-count: infinite;
 }
 
-
-
-
 .Home_Buttons{
     justify-content: space-around;
     display: flex;
@@ -111,7 +111,6 @@ text-shadow: none;
 .Modal_Buttons{
     display: flex;
     justify-content: space-around;
-    
     
 }
 
@@ -166,41 +165,227 @@ text-shadow: none;
     margin: 5px 0 25px 0 !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+        .all{
+            display: flex;
+            flex-direction: column;
+            font-weight: 100;
+            font-size: 11px;
+            justify-content: space-between;
+        }
+        
+        .home{
+            margin: 101px;
+            font-family:  'Roboto', sans-serif;
+        }
+        body{
+            background-color: black;
+            text-align: center;
+        }
+        h3{
+            border: 2px solid rgba(138, 43, 226,0.8) ;
+            padding: 5px;
+            width: 270px;
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+            box-shadow: 2px 2px 10px rgb(255, 127, 6);
+            font-size: 14px;
+        }
+        .About_Home{
+            margin: 1px;
+            color: white;
+        }
+        .img1{
+           display: none;      
+        }
+        .img2{
+            display: block;
+            height: 300px;
+            margin: -100px 0px 0 80px;
+            border-radius: 50%;      
+            max-width: 400px;
+        }
+        
+        span{
+            color: rgb(27, 128, 230);
+        text-shadow: none;
+        }
+        
+        .Resume{
+            margin: 25px 25px 25px 0px;
+            padding: 10px 10px;
+            font-size: 30px;
+            border-radius: 8px;
+            background-color: rgb(10, 150, 244);
+            color: rgb(8, 8, 8);
+            font-weight: 400;
+            border: none;
+            width: 130px;
+            position: relative;
+          animation-name: Resume_Example;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+        
+        }
+        .Message{
+            margin: 25px 25px 25px 0px;
+            padding: 10px 30px;
+            border-radius: 8px;
+            font-size: 30px;
+            background-color: rgb(208, 234, 10);
+            color: rgb(7, 7, 7);
+            font-weight: 400;
+            border: none;
+            width: 130px;
+            position: relative;
+          animation-name: Message_Example;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+        }
+    
+        .Home_Buttons{
+            justify-content: space-around;
+            display: flex;
+            flex-direction: column;
+            margin: 25px 0 0 10px;
+        }
+        
+        
+        .Home_Name{
+            color:rgba(38, 124, 229, 0.889)
+        }
+        
+        .Home_Profession{
+            color:rgb(222, 40, 213)
+        }
+        
+        @keyframes Resume_Example {
+            0%   { left:0px; right:200px;}
+            25%  { left:100px; right:100px;}
+            50%  { left:200px; right:0px;}
+            75%  { left:100px; right:100px;}
+            100% {left:0px; right:200px;}
+          }
+        
+        @keyframes Message_Example {
+            0%   {  right:0px;left:200px;}
+            25%  {  right:100px;left:100px;}
+            50%  { right:200px;left:0px; }
+            75%  {  right:100px;left:100px;}
+            100% { right:0px;left:200px;}
+          }
+        
+        .Modal_Buttons{
+            display: flex;
+            justify-content: space-around;
+       
+        }
+        
+        .Modal_Styles{
+            margin: 200px 0 0 380px;
+        }
+        
+        .Labels{
+          display: flex;
+          margin: 25px 0 25px 25pxc !important;
+          font-size: 20px;
+        }
+        
+        .Heading_Modal{
+            font-size: 30px !important;
+            text-align: center !important;
+        }
+        
+        .Button_Styles{
+            font-size: 16px !important;
+        }
+        
+        .Btn1{
+            background-color: aqua !important;
+            color: black;
+        }
+        
+        .Form{
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+        
+        .Text_Area{
+            width: 400px;
+            margin: 5px 0px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            border-radius:5px
+        }
+        
+        .Button_Modal{
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+        
+        .Heading_Modal{
+            text-align: center !important;
+            margin: 5px 0 25px 0 !important;
+        }
+    }
+
+ @media only screen and (min-width: 601px) and (max-width:768px) {
     .all{
         display: flex;
+        flex-direction: column;
+        font-weight: 100;
+        font-size: 11px;
         justify-content: space-between;
     }
     
     .home{
-        margin: 200px;
+        margin: 101px;
         font-family:  'Roboto', sans-serif;
     }
     body{
         background-color: black;
+        text-align: center;
     }
     h3{
         border: 2px solid rgba(138, 43, 226,0.8) ;
         padding: 5px;
         width: 270px;
         text-align: center;
+        margin: 0 0 15px 130px;
         border-radius: 5px;
         color: white;
-        /* text-shadow: 1px 1px 4px rgb(1, 255, 170) ; */
         box-shadow: 2px 2px 10px rgb(255, 127, 6);
+        font-size: 14px;
     }
     .About_Home{
         margin: 1px;
         color: white;
-        /* text-shadow: 2px 2px 5px rgb(225, 0, 255); */
     }
+
     .img1{
-        height: 600px;
-        margin: 50px 0px;
-        filter: drop-shadow(4px 2px 9px rgb(202, 201, 201));
-        /* background-color: rgb(27, 128, 230);   to remove  */
-        border-radius: 50%;      /* to remove */ 
+        display: block;
+        height: 400px;
+        margin: -80px 0px 0 -20px;
+        border-radius: 50%;      
+        max-width: 400px;;
     }
+
+    .Images{
+        display: flex;
+        justify-content: space-between;
+    }
+    .img2{
+        display: block;
+        height: 300px;
+        margin: -80px 0px 0 40px;
+        border-radius: 50%;      
+        max-width: 400px;;
+    }
+   
     
     span{
         color: rgb(27, 128, 230);
@@ -208,7 +393,7 @@ text-shadow: none;
     }
     
     .Resume{
-        margin: 25px 25px 25px 100px;
+        margin: 25px 25px 25px 0px;
         padding: 10px 10px;
         font-size: 30px;
         border-radius: 8px;
@@ -224,7 +409,7 @@ text-shadow: none;
     
     }
     .Message{
-        margin: 25px 25px 25px 100px;
+        margin: 25px 25px 25px 0px;
         padding: 10px 30px;
         border-radius: 8px;
         font-size: 30px;
@@ -242,7 +427,8 @@ text-shadow: none;
     .Home_Buttons{
         justify-content: space-around;
         display: flex;
-        margin: 25px 0 0 -70px;
+        flex-direction: column;
+        margin: 25px 0 0 10px;
     }
     
     
@@ -255,25 +441,24 @@ text-shadow: none;
     }
     
     @keyframes Resume_Example {
-        0%   { left:0px; top:200px;}
-        25%  { left:0px; top:100px;}
-        50%  { left:0px; top:0px;}
-        75%  { left:0px; top:100px;}
-        100% {left:0px; top:200px;}
+        0%   { left:0px; right:200px;}
+        25%  { left:100px; right:100px;}
+        50%  { left:200px; right:0px;}
+        75%  { left:100px; right:100px;}
+        100% {left:0px; right:200px;}
       }
     
     @keyframes Message_Example {
-        0%   { left:0px; top:0px;}
-        25%  { left:0px; top:100px;}
-        50%  { left:0px; top:200px;}
-        75%  { left:0px; top:100px;}
-        100% {left:0px; top:0px;}
+        0%   {  right:0px;left:200px;}
+        25%  {  right:100px;left:100px;}
+        50%  { right:200px;left:0px; }
+        75%  {  right:100px;left:100px;}
+        100% { right:0px;left:200px;}
       }
     
     .Modal_Buttons{
         display: flex;
         justify-content: space-around;
-   
     }
     
     .Modal_Styles{
@@ -325,19 +510,13 @@ text-shadow: none;
         text-align: center !important;
         margin: 5px 0 25px 0 !important;
     }
-    
 
-}
+    .Images{
+        display: flex;
+        justify-content: space-between;
+    }
 
-/* Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-
-} */
+} 
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
@@ -348,3 +527,4 @@ text-shadow: none;
 /* @media only screen and (min-width: 1200px) {
 
 } */
+
