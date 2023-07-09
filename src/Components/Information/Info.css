@@ -12,7 +12,7 @@
 
 .About_info{
     margin: 120px 0 0 0;
-    width: 900px;
+    width: 700px;
     font-size: 20px;
     border: 2px solid white;
     height: 160px;
@@ -21,3 +21,88 @@
     border-radius: 10px;
     padding: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+    .About_Items{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: -120px 80px 0 80px;
+       
+    }
+    .Heading_About{
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+     
+    .About_info{
+        width: 250px;
+        height: 1000px !important;
+        text-align: center;
+        margin: 0 80px;
+        padding: 30px;
+    }
+
+}
+
+
+@media only screen and (min-width:601px) and (max-width: 700px) {
+    .About_Items{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        margin: -120px 80px 0 80px;
+       
+    }
+    .Heading_About{
+        font-weight: 400;
+    }
+
+    .About_info{
+        width: 400px;
+        height: 600;
+        margin: 50px 20px 0 20px;
+    }
+
+}
+
+@media only screen and (min-width:701px) and (max-width: 1150px){
+    .About_Items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        margin: -120px 80px 0 180px;
+       
+    }
+    .Heading_About{
+        font-weight: 400;
+    }
+
+    .About_info{
+        width: 600px;
+        height: 600;
+        margin: 50px 20px 0 0px;
+    }
+}
+
+
+@media only screen and (min-width:1151px) and (max-width: 1250px)  {
+
+    .About_Items{
+        display: flex;
+       
+    }
+    .Heading_About{
+        font-weight: 400;
+    }
+
+    .About_info{
+        width: 600px;
+        height: 600;
+        margin: 130px 20px 0 20px;
+    }
+}
+
