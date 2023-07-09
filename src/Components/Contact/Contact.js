@@ -13,7 +13,7 @@ import {
 function Contact() {
   return (
     <div>
-    <h1 style={{textAlign:'center',margin:'50px 0 -70px 0',color:'white'}}>Contact</h1>
+    <h1 style={{textAlign:'center',margin:'20px 0 -70px 0',color:'white'}}>Contact</h1>
       <div className="ci">
         <div>
           <img src={mes} alt="img" className="cimg" />
