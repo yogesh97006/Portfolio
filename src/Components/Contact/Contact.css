@@ -5,7 +5,6 @@
 
 .ci{
     display: flex;
-   
 }
 
 .cii{
@@ -14,7 +13,7 @@
 }
 
 .citems{
-    margin: 150px 0 0 250px;
+    margin: 150px 0 0 220px;
     height: 350px;
     border:2px solid white;
     padding: 50px;
@@ -26,3 +25,105 @@
     margin:5px 0 0 15px;
     cursor: pointer;
 }
+
+@media only screen and (max-width:600px){
+    .cimg{
+        width: 250px;
+        margin: 150px 100px 0 0;
+    }
+    
+    .ci{
+        display: flex;
+        flex-direction: column;
+    }
+/*     
+    .cii{
+        display: flex;
+        margin: 10px ;
+    } */
+    
+    .citems{
+        margin: 40px 30px 0 30px;
+        height: 330px;
+        border:2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .cp{
+        color: white;
+        margin:5px 0 0 15px;
+        cursor: pointer;
+    }
+    
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width:768px) and (max-width: 1350px) {
+    .cimg{
+        width: 250px;
+        margin: 150px 100px 0 0;
+    }
+    
+    .ci{
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+    }
+/*     
+    .cii{
+        display: flex;
+        margin: 10px ;
+    } */
+    
+    .citems{
+        margin: 100px 30px 0 30px;
+        height: 360px;
+        border:2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .cp{
+        color: white;
+        margin:5px 0 0 15px;
+        cursor: pointer;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 601px) and (max-width:767px) {
+    .cimg{
+        width: 250px;
+        margin: 150px 100px 0 0;
+    }
+    
+    .ci{
+        display: flex;
+        flex-direction: column;
+    }
+/*     
+    .cii{
+        display: flex;
+        margin: 10px ;
+    } */
+    
+    .citems{
+        margin: 40px 30px 0 160px;
+        width: 330px;
+        height: 330px;
+        border:2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .cp{
+        color: white;
+        margin:5px 0 0 15px;
+        cursor: pointer;
+    }
+    
+}
+
