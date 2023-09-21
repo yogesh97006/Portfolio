@@ -4,8 +4,16 @@ import img from "../../Images/Home.webp"
 import Dev from '../../Images/Dev.gif'
 import { Box, Button ,Modal, Typography,} from "@mui/material";
 
+
 function Home() {
   const [OpenModal, setOpenModal] = useState(false);
+
+const resume=()=>{
+  const pathurl='https://drive.google.com/file/d/17HQu7FkK023RnAnxiWidfRXMSTusAEGH/view?usp=sharing';
+
+  window.open(pathurl,'_blank')
+}
+
 
   function HandleOpenModal(){
     setOpenModal(!OpenModal)
@@ -38,8 +46,8 @@ function Home() {
           <span className="Home_Profession"> Frontend Developer</span>
         </h1>
         <div className="Home_Buttons">
-          <button className="Resume">
-            <i className="bi bi-file-earmark-person-fill"></i>
+          <button className="Resume" onClick={resume}>
+         <i className="bi bi-file-earmark-person-fill" ></i>
           </button>
           <button className="Message" onClick={HandleOpenModal}>
             <i class="bi bi-chat-dots"></i>
